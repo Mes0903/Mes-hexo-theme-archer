@@ -88,7 +88,7 @@ $index-post-tag-color-dark: $text-color-minor-dark;
 
 // ===== abstract content ===== //
 $abstract-content-title-color: #333;
-$abstract-content-title-color-dark: $text-color-primary-dark;
+$abstract-content-title-color-dark: #F5DEB3;
 $abstract-content-text-color: #585858;
 $abstract-content-text-color-dark: $text-color-secondary-dark;
 $abstract-post-meta-color: #aaa;
@@ -140,3 +140,143 @@ $theme-colors: map-get($code-color-map, $code-theme);
 
 // ========== algolia-search ========== //
 $algolia-search-padding-horiz: 20px;
+
+// ========== Mes Using ========== //
+
+.green {
+  color:#29E5A9;
+}
+
+.yellow {
+  color:#F1EF78;
+}
+
+.brown {
+  color:#990000;
+}
+
+.pink {
+  color:#DD9FBD;
+}
+
+.red {
+  color:#E71B18 ;
+}
+
+.orange {
+  color:#E8A635;
+}
+
+.purple {
+  color:#AC9FDD;
+}
+
+.blue {
+  color:#20DEE5;
+}
+
+.ivory {
+  color:#FFFFF0;
+}
+
+.pearl {
+  color:#EAE0C8;
+}
+
+.beige {
+  color:#F5F5DC;
+}
+
+.cornsilk {
+  color:#FFF8DC;
+}
+
+.gainsboro {
+  color:#DCDCDC;
+}
+
+.light_grey {
+  color:#D3D3D3;
+}
+
+.silver {
+  color:#C0C0C0;
+}
+
+.dark_grey {
+  color:#A9A9A9;
+}
+
+.wheat {
+  color:#F5DEB3;
+}
+
+.burlywood {
+  color:#DEB887;
+}
+
+.tan {
+  color:#D2B48C;
+}
+
+a.redlink {
+  color:#DB1859;
+}
+
+a.redlink:link {
+  color:#DB1859;
+  text-decoration:none;
+}
+
+
+a.redlink:visiteid {
+  color:#DB1859;
+  text-decoration:none;
+}
+
+a.redlink:hover {
+  color:#19CABC;
+  text-decoration:none;
+}
+
+a.redlink:active {
+  color:#DB1859;
+  text-decoration:underline;
+  background:#FFFFFF;
+}
+
+a.pinklink {
+  color:#DD9FBD;
+  text-decoration:none;
+}
+a.pinklink:visiteid {
+  color:#DD9FBD;
+  text-decoration:none;
+}
+a.pinklink:hover {
+  color:#19CABC;
+  text-decoration:none;
+}
+a.pinklink:active {
+  color:#DD9FBD;
+  text-decoration:underline;
+  background:#FFFFFF;
+}
+
+a.wheatlink {
+  color:#F5DEB3;
+  text-decoration:none;
+}
+a.wheatlink:visiteid {
+  color:#F5DEB3;
+  text-decoration:none;
+}
+a.wheatlink:hover {
+  color:#19CABC;
+  text-decoration:none;
+}
+a.wheatlink:active {
+  color:#F5DEB3;
+  text-decoration:underline;
+  background:#FFFFFF;
+}
