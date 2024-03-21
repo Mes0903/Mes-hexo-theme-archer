@@ -64,6 +64,11 @@ jobs:
           cd demo
           hexo g
           ls -lh public
+      
+      - name: Get algolia objects
+        run: npm run algolia
+        env: 
+          HEXO_ALGOLIA_INDEXING_KEY: ${{ secrets.HEXO_ALGOLIA_INDEXING_KEY }}
 
       - name: Publish
         uses: peaceiris/actions-gh-pages@v3
