@@ -50,13 +50,13 @@
             default: %>
                 <% baseSearchMeUrl = 'https://www.bing.com/search?q=site%3A' %>
         <% } %>
-        <div class="profile-link-item">
-            <a href="<%- baseSearchMeUrl + theme.search.url %>" class="search-me">
+        <div class="profile-search-button">
+            <div class="site-search site-search-loading popup-trigger">
                 <% if(theme.profile_icons && !!theme.profile_icons.enable && theme.profile_icons.search) { %>
                     <i class="<%- theme.profile_icons.search %> profile-item-icon"></i>
                 <% } %>
                 SEARCH
-            </a>
+            </div>
         </div>
     <% } %>
     <% if(theme.profile_links) { %>

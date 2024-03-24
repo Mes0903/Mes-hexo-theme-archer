@@ -116,6 +116,19 @@
   }
 }
 
+.profile-search-button {
+  cursor: pointer;
+
+  padding: 0.5rem 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: $social-iconfont-color;
+  &:hover {
+    color: $feature-color;
+  }
+}
+
 .profile-item-icon {
   margin-right: 0.3rem;
 }
